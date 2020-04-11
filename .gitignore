@@ -1,0 +1,10 @@
+env
+**/*.pyc
+**/__pycache__
+# **/migrations
+.idea
+.vscode
+build
+db.sqlite3
+node_modules
+package-lock.json
