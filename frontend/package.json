@@ -1,0 +1,53 @@
+{
+  "homepage": "https://misionaryfamily.herokuapp.com/",
+  "name": "django-react-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.7.3",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.4.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.4.1",
+    "react-grid-gallery": "^0.5.5",
+    "react-js-pagination": "^3.0.3",
+    "react-paginate": "^6.3.2",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^3.4.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "postinstall": "npm run build"
+  },
+  "engines": {
+    "node": "10.19.0",
+    "npm": "6.13.4"
+  },
+  "devDependencies": {
+    "react-cookies": "^0.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
